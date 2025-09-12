@@ -129,53 +129,53 @@ export default function App() {
     {
       id: 1,
       title: "Modelos arquitectónicos más comunes",
-      img: "/mvc.png",
+      img: process.env.PUBLIC_URL +"/mvc.png",
       description:
         "Los modelos arquitectónicos son fundamentales en el desarrollo de aplicaciones móviles, ya que permiten organizar el código de forma más clara, escalable y mantenible. Entre los más utilizados se encuentra el MVC (Model-View-Controller), que separa la lógica de negocio, la interfaz y el control de eventos, aunque puede volverse rígido en aplicaciones grandes. El MVP (Model-View-Presenter) mejora la interacción al delegar la lógica en el presentador, lo que facilita la prueba de componentes. Por su parte, el MVVM (Model-View-ViewModel) es ampliamente usado en entornos modernos como Android con Jetpack y iOS con SwiftUI, ya que permite un mayor desacoplamiento y la vinculación automática de datos. Finalmente, la Clean Architecture propone capas bien definidas (dominio, datos y presentación), lo que mejora la mantenibilidad y escalabilidad, siendo ideal para proyectos de gran envergadura.",
-      podcastImage: "/mvc.png",
+      podcastImage: process.env.PUBLIC_URL +"/mvc.png",
       podcastTitle: "Podcast Arquitectura Móvil 1",
-      podcastAudio: "/Desafío_Arquitectónico__MVC__MVP__MVVM_y_Clean_Architecture_par.mp3"
+      podcastAudio: process.env.PUBLIC_URL +"/Desafío_Arquitectónico__MVC__MVP__MVVM_y_Clean_Architecture_par.mp3"
 
     },
     {
       id: 2,
       title: "Integración con servicios en la nube",
-      img: "/nube.png",
+      img: process.env.PUBLIC_URL +"/nube.png",
       description:
         "Las aplicaciones móviles modernas suelen depender de la nube para ofrecer mayor capacidad de almacenamiento, autenticación y servicios en tiempo real. Plataformas como Firebase, AWS, Azure y Google Cloud permiten a los desarrolladores integrar funciones como bases de datos, notificaciones push, servicios de autenticación y análisis de datos sin necesidad de gestionar servidores propios. La nube no solo reduce costos de infraestructura, sino que también facilita la escalabilidad y la disponibilidad de la aplicación a nivel global.",
-      podcastImage: "/nube.png",
+      podcastImage: process.env.PUBLIC_URL +"/nube.png",
       podcastTitle: "Podcast Arquitectura Móvil 2",
-      podcastAudio: "Apps_en_la_Nube__La_Magia_Detrás_de_Tus_Aplicaciones_Favoritas.mp3"
+      podcastAudio: process.env.PUBLIC_URL +"/Apps_en_la_Nube__La_Magia_Detrás_de_Tus_Aplicaciones_Favoritas.mp3"
     },
     {
       id: 3,
       title: "Uso de almacenamiento local y sincronización con la nube",
-      img: "/nubeylocal.jpeg",
+      img: process.env.PUBLIC_URL +"/nubeylocal.jpeg",
       description:
         "En muchas aplicaciones móviles es necesario almacenar datos localmente para garantizar que funcionen sin conexión a internet. Tecnologías como SQLite, Room en Android, Core Data en iOS y SharedPreferences permiten gestionar datos dentro del dispositivo. Sin embargo, cuando la aplicación vuelve a estar en línea, se requiere sincronización con la nube para mantener actualizada la información entre distintos dispositivos. Este proceso garantiza una experiencia fluida al usuario y es clave en aplicaciones como redes sociales, mensajería y plataformas de productividad.",
-      podcastImage: "/nubeylocal.jpeg",
+      podcastImage: process.env.PUBLIC_URL +"/nubeylocal.jpeg",
       podcastTitle: "Podcast Arquitectura Móvil 2",
-        podcastAudio: "\Apps_offline_y_en_la_nube__Tu_data_siempre_contigo.mp3"
+        podcastAudio: process.env.PUBLIC_URL +"/Apps_offline_y_en_la_nube__Tu_data_siempre_contigo.mp3"
     },
     {
       id: 4,
       title: "Escalabilidad y microservicios en aplicaciones móviles modernas",
-      img: "/microserciios.webp",
+      img: process.env.PUBLIC_URL +"/microserciios.webp",
       description:
         "La escalabilidad es un requisito fundamental para las aplicaciones móviles actuales, ya que muchas de ellas deben atender a millones de usuarios de forma simultánea. Una de las soluciones más adoptadas es el uso de arquitectura de microservicios, donde las aplicaciones se dividen en módulos independientes que se comunican entre sí mediante APIs. Este enfoque permite actualizar, desplegar y mantener cada parte de la aplicación sin afectar al sistema completo. Empresas como Uber, Netflix y Spotify han adoptado este modelo, logrando manejar gran cantidad de tráfico y ofrecer nuevas funcionalidades de manera ágil.",
-      podcastImage: "/microserciios.webp",
+      podcastImage: process.env.PUBLIC_URL +"/microserciios.webp",
       podcastTitle: "Podcast Arquitectura Móvil 2",
-        podcastAudio: "/Microservicios__El_Secreto_de_Netflix_y_Uber_para_Nunca_Colapsa.mp3"
+        podcastAudio: process.env.PUBLIC_URL +"/Microservicios__El_Secreto_de_Netflix_y_Uber_para_Nunca_Colapsa.mp3"
     },
     {
       id: 5,
       title: "Retos arquitectónicos con tecnologías emergentes ",
-      img: "/arquitecrua.png",
+      img: process.env.PUBLIC_URL +"/arquitecrua.png",
       description:
         "Las tecnologías emergentes presentan nuevos desafíos arquitectónicos en el desarrollo de aplicaciones móviles. En el caso de la Inteligencia Artificial (IA), la integración de chatbots, reconocimiento de voz e imagen requiere gran capacidad de procesamiento, lo que obliga a combinar procesamiento en la nube y en el dispositivo. Con el Internet de las Cosas (IoT), la arquitectura debe permitir la comunicación eficiente entre múltiples dispositivos inteligentes, garantizando seguridad y estabilidad en la transmisión de datos. Finalmente, la realidad aumentada (AR) demanda arquitecturas optimizadas para manejar gráficos avanzados y sensores en tiempo real, lo que representa un reto en términos de rendimiento, consumo de batería y experiencia de usuario.",
-      podcastImage: "/arquitecrua.png",
+      podcastImage: process.env.PUBLIC_URL +"/arquitecrua.png",
       podcastTitle: "Podcast Arquitectura Móvil 2",
-        podcastAudio: "/El_Reto_Arquitectónico__IA__IoT_y_AR_Redefiniendo_las_Apps_Móvi.mp3"
+        podcastAudio: process.env.PUBLIC_URL +"/El_Reto_Arquitectónico__IA__IoT_y_AR_Redefiniendo_las_Apps_Móvi.mp3"
     },
   
   ];
